@@ -6,6 +6,6 @@ Streamlink
 os
 datetime
 subprocess 
-Popen
+from subprocess  import Popen
 PIPE
 streamlit.components.v1 
