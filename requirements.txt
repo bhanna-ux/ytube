@@ -1,6 +1,5 @@
 streamlit 
 streamlink
-signal
 ffmpeg
 Streamlink
 os
