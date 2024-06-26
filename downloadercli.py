@@ -158,7 +158,7 @@ def recordingaudio():
 .input(stream_url)
 .audio
 .output(
-'/home/bassem/Desktop/videos/'+videoname+'.mp3')
+'C:\records\'+videoname+'.mp3')
 .overwrite_output()
 .run_async()
 )
@@ -172,7 +172,7 @@ def recordingaudio():
 
 def record():
   process= subprocess.Popen( ["streamlink" , url ,
-"best","-o",'/home/bassem/Desktop/videos/'+videoname+'.mp4'])
+"best","-o",'C:\records\'+videoname+'.mp4'])
   
   #stdout=process.communicate()
   #st.text('\n'.join(stdout.decode().split('\n')))
