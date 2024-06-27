@@ -1,0 +1,3 @@
+ffmpeg_python==0.2.0
+streamlink==6.7.3
+streamlit==1.34.0
