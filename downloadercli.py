@@ -154,13 +154,12 @@ if url :
 
 def recordingaudio():
     stream_url = stream_to_url(url)
-    fmpeg_process = (ffmpeg
-.input(stream_url)
-.audio
-.output('C:\'+videoname+'.mp3')
-.overwrite_output()
-.run_async()
-)
+    fmpeg_process = (ffmpeg.input(stream_url)
+                     .audio
+                     .output('C:\'+videoname+'.mp3')
+                             .overwrite_output()
+                             .run_async()
+                            )
     st.write(":red[RECORDING Audio ....]",height=30)
     st.components.v1.html(html,width=100,height=20)
     def Finish():
