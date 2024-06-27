@@ -158,8 +158,7 @@ def recordingaudio():
                      .audio
                      .output('C:\audio.mp3')
                              .overwrite_output()
-                             .run_async()
-                            )
+                             .run_async())
     st.write(":red[RECORDING Audio ....]",height=30)
     st.components.v1.html(html,width=100,height=20)
     def Finish():
