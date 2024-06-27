@@ -170,7 +170,7 @@ def recordingaudio():
 
 def record():
   process= subprocess.Popen( ["streamlink" , url ,
-"best","-o",'C:\'+videoname+'.mp4'])
+"best","-o",'C:\video.mp4'])
   
   #stdout=process.communicate()
   #st.text('\n'.join(stdout.decode().split('\n')))
