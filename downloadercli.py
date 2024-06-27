@@ -156,7 +156,7 @@ def recordingaudio():
     stream_url = stream_to_url(url)
     fmpeg_process = (ffmpeg.input(stream_url)
                      .audio
-                     .output('C:\'+videoname+'.mp3')
+                     .output('C:\audio.mp3')
                              .overwrite_output()
                              .run_async()
                             )
