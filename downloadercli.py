@@ -205,17 +205,17 @@ st.sidebar.button("Start Record Audio Only  ",on_click=recordingaudio)
         #if Finish:
             #fmpeg_process.send_signal(signal.SIGQUIT)
 #def file_selector(folder_path='/home/bassem/Desktop/videos/'):
-    filenames = os.listdir(folder_path)
-    selected_filename = st.sidebar.selectbox(':blue[select your file from Downloads Folder]', filenames)
+    #filenames = os.listdir(folder_path)
+    #selected_filename = st.sidebar.selectbox(':blue[select your file from Downloads Folder]', filenames)
     #return os.path.join(folder_path, selected_filename)
     #with open(folder_path +selected_filename, "rb") as file:
         #d=file.read()
         #btn = st.sidebar.download_button(
-                label=":red[Reload Page Before ]"+":blue[ Download ]",
-                data=d,
-                file_name=selected_filename,
-                use_container_width=True
-              )
+                #label=":red[Reload Page Before ]"+":blue[ Download ]",
+                #data=d,
+                #file_name=selected_filename,
+                #use_container_width=True
+              #)
     #return os.path.join(selected_filename)
 #filename=file_selector()
 #st.sidebar.write('You selected `%s`' % filename) 
